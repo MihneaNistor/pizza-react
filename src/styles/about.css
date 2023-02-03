@@ -1,0 +1,51 @@
+.about {
+    width: 100%;
+    height: 80em;
+    display: flex;
+    flex-direction: column;
+  }
+
+.aboutBot {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    align-items: center;
+    margin-top: 80em;
+    font-size: 10px;
+    line-height: 40px;
+}
+
+.aboutBot p {
+    text-align: center;
+    margin: .1em 5em;
+}
+
+.aboutBot h1{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.aboutTop {
+    width: 100%;
+    height: 55%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+@media only screen and (max-width: 1200px) {
+    .aboutBot p {
+        margin: 0 .25em;
+    }
+
+    .aboutBot h1 {
+        margin: .2em auto;
+        margin-top: -30px;
+    }
+/* 
+    .aboutBot {
+        margin-top: 65em;
+        margin-bottom: 40em;
+    } */
+}
